@@ -1,12 +1,19 @@
  
+import java.util.Scanner;
 public class Apple {
     public static void main(String[] args) {
-        System.out.println(args[0]);
-        System.out.println(args[1]);	
-		printstr("cccc");
+		int num1,num2,total;
+		Scanner input = new Scanner(System.in);
+		System.out.print("輸入成績: ");
+		num1 = input.nextInt();
+ 
+		if(num1 >= 90){
+			System.out.println("Very goood");
+		}else if(num1>= 60){
+			System.out.println("goood");
+		}else{
+			System.out.println("不及格");
+		};	
     }
-	public static void printstr(String str) {
-        System.out.println("my name" + str);
-       
-    }
+ 
 } 
