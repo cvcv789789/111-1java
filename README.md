@@ -1,5 +1,8 @@
 # javatest  3a813152
-Apple-(if 成績)
+Apple-(作業一)
 
+Test2  (作業二)
 
-Test2  (switch case 成績)
+Test3  (作業三)
+
+Test4  (作業四)
