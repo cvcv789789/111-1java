@@ -8,11 +8,15 @@ public class Apple {
 		num1 = input.nextInt();
  
 		if(num1 >= 90){
-			System.out.println("Very goood");
+			System.out.println("A");
+		}else if(num1>= 80){
+			System.out.println("B");
+		}else if(num1>= 70){
+			System.out.println("C");
 		}else if(num1>= 60){
-			System.out.println("goood");
+			System.out.println("D");
 		}else{
-			System.out.println("¤£¤Î®æ");
+			System.out.println("E");
 		};	
     }
  
