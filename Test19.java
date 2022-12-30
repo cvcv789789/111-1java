@@ -5,19 +5,21 @@ public class Test19 {
 		int[]myArr = {7,5,4,9,8,1,2};
 		int num=1;
 		int input;
-		System.out.print("´X­Ó¬°¤@²Õ:");
+		System.out.print("å¹¾å€‹ä¸€çµ„:");
 		Scanner s = new Scanner(System.in);
 		input = s.nextInt();
 		int num1 = myArr.length/input;
-		 
+	
 		float avg=0,total=0;
 		for(int i=0;i<myArr.length;i++){
-		 
+			
 			if (num1 != 0){
 				if (num <=input){
 					total=myArr[i]+total;
 					num=num+1;
-				}else{
+				
+				}
+				if (num > input){
 					num=1;
 					avg= total/input;
 					total=0;
@@ -26,6 +28,7 @@ public class Test19 {
 				} 
 			}else{
 				System.out.print(" "+myArr[i]+" ,");
+				 
 			}
 			
 			 
